@@ -43,7 +43,6 @@ $comments = $commentsSelect->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
         </header>
-        <!-- Post Content-->
         <article class="mb-4">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -95,11 +94,8 @@ $comments = $commentsSelect->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
         </section>
-        <!-- Footer-->
         <?php include_once __DIR__.'/includes/footer.php' ?>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="assets/js/scripts.js"></script>
     </body>
 </html>
